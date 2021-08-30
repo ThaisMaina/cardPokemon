@@ -1,0 +1,80 @@
+.pokemon-card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.548);
+    padding: 30px 30px 30px;
+    margin: 20px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(247, 196, 102, 0.774);
+    width: 400px;
+  }
+
+.pokemon-image{
+    height: 18em;
+    display: flex;
+    align-items: center;
+  }
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}  
+
+.button1{
+    text-align: right;
+    background-color: rgba(235, 130, 45, 0.753);
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 139);
+}
+
+.button2{
+    text-align: right;
+    background-color: rgba(235, 130, 45, 0.753);
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 139)
+    
+}
+
+.pokemon-name-type{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.pokemon-name{
+    text-transform: uppercase;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.pokemon-type{
+    text-transform: capitalize;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.pokemon-description{
+    font-weight: bold;
+    text-align: center;
+}
+
+.pokemon-description-p{
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pokemon-golpes{
+    font-weight: bold;
+    text-align: center;
+}
+
+.pokemon-golpes-li{
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
