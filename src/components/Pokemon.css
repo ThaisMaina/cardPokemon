@@ -15,6 +15,7 @@
     height: 18em;
     display: flex;
     align-items: center;
+    margin-left: 53px;
   }
 
 .buttons{
@@ -37,6 +38,21 @@
     border-radius: 10px;
     border-color: rgb(0, 0, 139)
     
+}
+
+.index{
+    text-align: center;
+    background-color: rgba(235, 130, 45, 0.753);
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: rgb(0, 0, 139);
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pokemon-name-type{
@@ -66,15 +82,24 @@
     background-color: #ffffff;
     border-radius: 10px;
     text-align: center;
+    margin: 10px 5px 10px 5px;
+    padding: 7px;
 }
+
+
 
 .pokemon-golpes{
     font-weight: bold;
     text-align: center;
+    margin: 10px 5px 10px 5px
 }
 
 .pokemon-golpes-li{
     background-color: #ffffff;
     border-radius: 10px;
     text-align: center;
+}
+
+@media (max-width:600px){
+
 }
